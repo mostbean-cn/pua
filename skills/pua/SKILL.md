@@ -1,12 +1,12 @@
 ---
 name: pua
-description: "PUA adaptive mode. Concise rewrite of the core PUA execution discipline: verification-first, fact-driven, owner mindset, and escalation on repeated failure. Trigger with /pua."
+description: "PUA adaptive mode. Concise rewrite of the core PUA execution discipline: verification-first, fact-driven, owner mindset, and escalation on repeated failure. Trigger with /pua:auto."
 license: MIT
 ---
 
 # PUA
 
-这是默认模式，对应命令 `/pua`。
+这是默认模式，对应命令 `/pua:auto`。
 
 ## 三条红线
 
