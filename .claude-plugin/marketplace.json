@@ -1,0 +1,20 @@
+{
+  "name": "pua-skills",
+  "description": "PUA minimal execution-discipline plugin for Claude Code. Includes /pua, /pua:l1, /pua:l2, /pua:l3 and /pua:update.",
+  "owner": {
+    "name": "mostbean-cn",
+    "url": "https://github.com/mostbean-cn"
+  },
+  "plugins": [
+    {
+      "name": "pua",
+      "description": "PUA plugin with one adaptive mode, three execution levels, and an update command.",
+      "version": "0.3.0",
+      "source": "./",
+      "author": {
+        "name": "mostbean-cn",
+        "url": "https://github.com/mostbean-cn"
+      }
+    }
+  ]
+}

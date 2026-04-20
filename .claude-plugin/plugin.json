@@ -1,0 +1,13 @@
+{
+  "name": "pua",
+  "version": "0.3.0",
+  "description": "PUA minimal execution-discipline plugin for Claude Code. Adaptive /pua plus L1-L3 modes and /pua:update.",
+  "author": {
+    "name": "mostbean-cn",
+    "url": "https://github.com/mostbean-cn"
+  },
+  "homepage": "https://github.com/mostbean-cn/pua",
+  "repository": "https://github.com/mostbean-cn/pua",
+  "license": "MIT",
+  "keywords": ["pua", "claude-code", "skill", "plugin", "adaptive", "verification-first"]
+}
