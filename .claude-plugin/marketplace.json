@@ -1,6 +1,6 @@
 {
   "name": "pua-skills",
-  "description": "PUA minimal execution-discipline plugin for Claude Code. Includes /pua:auto, /pua:l1, /pua:l2, /pua:l3 and /pua:update.",
+  "description": "PUA minimal execution-discipline plugin for Claude Code. Includes /pua:auto, /pua:design, /pua:l1, /pua:l2, /pua:l3 and maintenance commands.",
   "owner": {
     "name": "mostbean-cn",
     "url": "https://github.com/mostbean-cn"
@@ -8,8 +8,8 @@
   "plugins": [
     {
       "name": "pua",
-      "description": "PUA plugin with /pua:auto, three execution levels, and maintenance commands.",
-      "version": "0.3.1",
+      "description": "PUA plugin with /pua:auto, design mode, three execution levels, and maintenance commands.",
+      "version": "0.3.2",
       "source": "./",
       "author": {
         "name": "mostbean-cn",

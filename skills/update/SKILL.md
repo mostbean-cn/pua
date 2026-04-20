@@ -19,8 +19,8 @@ license: MIT
 
 ```md
 ---
-description: "PUA 裸命令别名。/pua [l1|l2|l3|update|version|任务描述]。默认等价于 /pua:auto。触发命令：/pua。"
-argument-hint: "[l1|l2|l3|update|version]"
+description: "PUA 裸命令别名。/pua [design|l1|l2|l3|update|version|任务描述]。默认等价于 /pua:auto。触发命令：/pua。"
+argument-hint: "[design|l1|l2|l3|update|version]"
 ---
 
 根据参数执行不同操作：
@@ -28,6 +28,7 @@ argument-hint: "[l1|l2|l3|update|version]"
 ## 参数路由
 
 - **无参数** 或任意任务描述 → 等价于执行 `/pua:auto`
+- **design** → 等价于执行 `/pua:design`
 - **l1** → 等价于执行 `/pua:l1`
 - **l2** → 等价于执行 `/pua:l2`
 - **l3** → 等价于执行 `/pua:l3`
@@ -39,6 +40,7 @@ argument-hint: "[l1|l2|l3|update|version]"
 1. 先识别参数属于哪个路由
 2. 用 Skill tool 加载对应 skill：
    - 默认路由加载 `pua:auto`
+   - `design` 加载 `pua:design`
    - `l1` 加载 `pua:l1`
    - `l2` 加载 `pua:l2`
    - `l3` 加载 `pua:l3`
