@@ -1,5 +1,5 @@
 ---
-description: "PUA 设计模式。/pua:design。用于提炼设计原则、梳理界面与交互方案、设计评审和多方案探索。Triggers on: '/pua:design', '/pua design'."
+description: "PUA 设计模式。用于界面设计、交互设计、原型方案、页面布局、视觉方向、设计评审、信息架构与设计原则提炼。用户提到设计稿、原型、视觉稿、交互流程、页面改版、设计系统、样式方向、多方案探索时使用。触发命令：/pua:design。"
 ---
 
 加载 `design` skill。

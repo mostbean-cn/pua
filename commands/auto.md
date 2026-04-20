@@ -1,5 +1,5 @@
 ---
-description: "PUA 默认模式。/pua:auto [任务描述]。默认从 L1 开始，并在重复失败、缺少验证、原地打转或过早放弃时升级到 L2 / L3。Triggers on: '/pua:auto', '/pua auto'."
+description: "PUA 默认模式。默认从 L1 开始，并在重复失败、缺少验证、原地打转或过早放弃时升级到 L2 / L3。触发命令：'/pua:auto'。"
 ---
 
 加载 `pua` skill。
