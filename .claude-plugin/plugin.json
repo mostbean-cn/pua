@@ -1,6 +1,6 @@
 {
   "name": "pua",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "PUA minimal execution-discipline plugin for Claude Code. Adaptive /pua:auto plus L1-L3 modes and /pua:update.",
   "author": {
     "name": "mostbean-cn",

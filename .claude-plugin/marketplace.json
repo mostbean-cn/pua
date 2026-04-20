@@ -9,7 +9,7 @@
     {
       "name": "pua",
       "description": "PUA plugin with /pua:auto, three execution levels, and maintenance commands.",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "source": "./",
       "author": {
         "name": "mostbean-cn",
