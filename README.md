@@ -46,10 +46,12 @@ claude plugin install pua@pua-skills
 
 ## 更新
 
-- `/pua:update`：源码安装会尝试 `git pull`，marketplace 安装会提示执行标准更新命令。
+- `/pua:update`：源码安装会尝试 `git pull`，marketplace 安装会提示执行标准更新命令；若裸 `/pua` alias 缺失，还会自动补齐 `~/.claude/commands/pua.md`。
 - `/pua:version`：显示当前插件版本、插件名和更新提示。
 
 ```bash
 claude plugin marketplace update
 claude plugin update pua@pua-skills
 ```
+
+首次执行 `/pua:update` 后，如果本地还没有裸 `/pua` 命令，它会自动创建 `~/.claude/commands/pua.md`。
