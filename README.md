@@ -1,6 +1,6 @@
 # pua
 
-这是一个极简版 Claude Code 插件，提供 6 个入口：
+这是一个极简版 Claude Code 插件，提供 7 个入口：
 
 - `/pua:auto`：默认自适应强度
 - `/pua:l1`：最小执行纪律
@@ -8,6 +8,7 @@
 - `/pua:l3`：攻坚与结构化失败报告
 - `/pua:update`：检测安装来源并执行/引导更新
 - `/pua:version`：显示当前插件版本与更新提示
+- `/pua:uninstall`：给出卸载步骤，并可选移除裸 `/pua` alias
 
 ## 设计目标
 
@@ -48,6 +49,7 @@ claude plugin install pua@pua-skills
 
 - `/pua:update`：源码安装会尝试 `git pull`，marketplace 安装会提示执行标准更新命令；若裸 `/pua` alias 缺失，还会自动补齐 `~/.claude/commands/pua.md`。
 - `/pua:version`：显示当前插件版本、插件名和更新提示。
+- `/pua:uninstall`：显示标准卸载命令，并可选移除 `~/.claude/commands/pua.md`。
 
 ```bash
 claude plugin marketplace update
