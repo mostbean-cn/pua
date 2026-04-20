@@ -1,6 +1,6 @@
 ---
 name: pua
-description: "PUA adaptive mode. Concise rewrite of the core PUA execution discipline: verification-first, fact-driven, owner mindset, and escalation on repeated failure. Trigger with /pua:auto."
+description: "PUA 自适应模式。核心执行纪律的精简版：先验证、看事实、有主人翁意识，重复失败时自动升级。触发命令：/pua:auto。"
 license: MIT
 ---
 

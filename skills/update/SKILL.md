@@ -1,6 +1,6 @@
 ---
 name: update
-description: "PUA update command. Detect source install vs marketplace install, update when possible, and auto-create ~/.claude/commands/pua.md if the bare /pua alias is missing. Trigger with /pua:update."
+description: "PUA 更新命令。识别源码安装或 marketplace 安装；能自动更新就自动更新，缺少裸 /pua 别名时自动创建 ~/.claude/commands/pua.md。触发命令：/pua:update。"
 license: MIT
 ---
 
@@ -21,7 +21,7 @@ license: MIT
 
 ```md
 ---
-description: "PUA 裸命令别名。/pua [l1|l2|l3|update|version|任务描述]。默认加载已安装插件的 PUA 自适应 skill。Triggers on: '/pua'."
+description: "PUA 裸命令别名。/pua [l1|l2|l3|update|version|任务描述]。默认加载已安装插件的 PUA 自适应模式。触发命令：/pua。"
 argument-hint: "[l1|l2|l3|update|version]"
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: l2
-description: "PUA level 2. Concise systematic troubleshooting protocol for repeated failure. Trigger with /pua:l2."
+description: "PUA L2。重复失败场景下的系统排查模式。触发命令：/pua:l2。"
 license: MIT
 ---
 

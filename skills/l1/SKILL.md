@@ -1,6 +1,6 @@
 ---
 name: l1
-description: "PUA level 1. Concise execution discipline for normal tasks. Trigger with /pua:l1."
+description: "PUA L1。常规任务的最小执行纪律模式。触发命令：/pua:l1。"
 license: MIT
 ---
 

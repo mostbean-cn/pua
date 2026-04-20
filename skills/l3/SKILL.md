@@ -1,6 +1,6 @@
 ---
 name: l3
-description: "PUA level 3. Concise intensive debugging protocol with structured failure report. Trigger with /pua:l3."
+description: "PUA L3。顽固问题场景下的高强度攻坚模式，要求结构化失败报告。触发命令：/pua:l3。"
 license: MIT
 ---
 

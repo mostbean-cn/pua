@@ -1,6 +1,6 @@
 ---
 name: uninstall
-description: "PUA uninstall command. Show the correct uninstall steps and optionally remove ~/.claude/commands/pua.md if it exists. Trigger with /pua:uninstall."
+description: "PUA 卸载命令。给出正确卸载步骤；如果存在 ~/.claude/commands/pua.md，可按需一并删除。触发命令：/pua:uninstall。"
 license: MIT
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: version
-description: "PUA version command. Read local plugin metadata and display version, package name, and update hint. Trigger with /pua:version."
+description: "PUA 版本命令。读取本地插件元数据，显示版本号、包名与更新提示。触发命令：/pua:version。"
 license: MIT
 ---
 
