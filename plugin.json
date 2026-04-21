@@ -1,7 +1,7 @@
 {
   "name": "pua",
-  "version": "0.3.3",
-  "description": "PUA minimal execution-discipline and design-mode plugin metadata.",
+  "version": "0.3.4",
+  "description": "PUA minimal execution-discipline, design-mode and review-mode plugin metadata.",
   "author": {
     "name": "mostbean-cn",
     "url": "https://github.com/mostbean-cn"
