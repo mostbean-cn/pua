@@ -12,6 +12,8 @@
 - `/pua:version`：显示当前插件版本与更新提示
 - `/pua:uninstall`：给出卸载步骤，并可选移除裸 `/pua` alias
 
+兼容说明：Claude Code 侧通过 `/pua:*` 命令入口使用；Codex 侧通过插件加载 `skills/`，可用自然语言触发对应的 `pua`、`design`、`review`、`l1`、`l2`、`l3` 等 skill。
+
 ## 设计目标
 
 `pua` 提炼的是外层 `pua` 的执行纪律精髓：更主动、少放弃、先验证再宣称完成。
@@ -48,10 +50,20 @@
 
 ## 安装
 
+### Claude Code
+
 ```bash
 claude plugin marketplace add mostbean-cn/pua
 claude plugin install pua@pua-skills
 ```
+
+### Codex
+
+```bash
+codex plugin marketplace add mostbean-cn/pua
+```
+
+安装或更新后，重启 Codex 以加载新的 skills。
 
 ## 更新
 
@@ -59,7 +71,15 @@ claude plugin install pua@pua-skills
 - `/pua:version`：显示当前插件版本、插件名和更新提示。
 - `/pua:uninstall`：显示标准卸载命令，并可选移除 `~/.claude/commands/pua.md`。
 
+### Claude Code
+
 ```bash
 claude plugin marketplace update
 claude plugin update pua@pua-skills
+```
+
+### Codex
+
+```bash
+codex plugin marketplace upgrade pua-skills
 ```

@@ -1,0 +1,41 @@
+{
+  "name": "pua",
+  "version": "0.3.4",
+  "description": "PUA minimal execution-discipline plugin for Codex. Includes adaptive execution, design mode, review mode, L1-L3 modes and maintenance skills.",
+  "author": {
+    "name": "mostbean-cn",
+    "url": "https://github.com/mostbean-cn"
+  },
+  "homepage": "https://github.com/mostbean-cn/pua",
+  "repository": "https://github.com/mostbean-cn/pua",
+  "license": "MIT",
+  "keywords": [
+    "pua",
+    "codex",
+    "claude-code",
+    "skill",
+    "plugin",
+    "adaptive",
+    "verification-first",
+    "code-review"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "PUA",
+    "shortDescription": "Execution discipline, design and review skills",
+    "longDescription": "PUA provides lightweight execution discipline for Codex: adaptive /pua:auto behavior, design guidance, code review discipline, L1-L3 troubleshooting levels and maintenance skills.",
+    "developerName": "mostbean-cn",
+    "category": "Coding",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/mostbean-cn/pua",
+    "defaultPrompt": [
+      "Use PUA discipline to complete this task",
+      "Review this code with PUA review mode",
+      "Use PUA design mode for this interface"
+    ],
+    "brandColor": "#0F766E"
+  }
+}
